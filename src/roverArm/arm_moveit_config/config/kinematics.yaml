@@ -1,0 +1,7 @@
+arm:
+  kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin #kdl_kinematics_plugin/KDLKinematicsPlugin
+  #for kdl needed
+  #kinematics_solver_search_resolution: 0.005 
+  #kinematics_solver_timeout: 0.001
+  position_only_ik: false          # Set true if only position control is required
+  solve_type: Speed #theres other types, check it out. this is fastest

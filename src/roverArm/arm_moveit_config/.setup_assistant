@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rover_arm
+    relative_path: urdf/rover_arm.urdf
+  srdf:
+    relative_path: config/rover_arm.srdf
+  package_settings:
+    author_name: aditya_karumbaiah
+    author_email: adityakarumbaiah@gmail.com
+    generated_timestamp: 1737393148
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
